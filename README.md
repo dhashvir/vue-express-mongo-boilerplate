@@ -240,6 +240,12 @@ These are the instructions for Twitter:
 - Click **Update this Twitter's applications settings**
 - Copy and paste *Consumer Key* and *Consumer Secret* keys into `config.js` file
 
+## Windows Install
+- Ensure Git is installed. https://git-scm.com/download/win
+- Add the following to window Path variable:  
+	- C:\Program Files\Git\usr\bin 
+	
+
 ## License
 
 vue-express-mongo-boilerplate is available under the [MIT license](https://tldrlegal.com/license/mit-license).
