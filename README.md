@@ -1,23 +1,5 @@
 # Vue, Express, MongoDB full-stack JS Boilerplate
 
-<img src="http://vuejs.org/images/logo.png" height="50"> <img src="https://coligo.io/images/express.svg" height="50"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" height="50"> <img src="https://worldvectorlogo.com/logos/nodejs-icon.svg" height="50"> <img src="https://camo.githubusercontent.com/66747a6e05a799aec9c6e04a3e721ca567748e8b/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313336353838312f313931383337332f32653035373166612d376462632d313165332d383436352d3839356632393164343366652e706e67" height="50">
-
-[![Known Vulnerabilities](https://snyk.io/test/github/icebob/vue-express-mongo-boilerplate/badge.svg)](https://snyk.io/test/github/icebob/vue-express-mongo-boilerplate)
-![Node 6](https://img.shields.io/badge/node-6.x.x-green.svg)
-![VueJS 2](https://img.shields.io/badge/vuejs-2.3.x-green.svg)
-![Webpack 2](https://img.shields.io/badge/webpack-2.6.x-green.svg)
-[![Trace](https://resources.risingstack.com/Monitored+with+Trace+by+RisingStack.svg)](https://trace.risingstack.com/?utm_source=opensource&utm_medium=Icebob)
-
-This is a full stack webapp boilerplate project with VueJS + ExpressJS + MongoDB. NOT an out-of-box project. 
-The goal is to create an up-to-date starter repo which contains all important functions (user signup, login, oauth, profile, ...etc) except the business-logic. So when neccessary I can create a new webapp and only need to develop the business logic.
-
-*This is just my personal boilerplate, it may or may not be a good fit for your project(s).*
-Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter)
-
-**If you like my work, please [donate](https://www.paypal.me/meregnorbert). Thank you!**
-
-### [Live Demo](http://vemapp.e-paper.space/) (login: test/test1234 or sign-up)
-
 ## Features
 
 **Server-side**
@@ -84,75 +66,6 @@ $ npm run build
 For production
 ```bash
 $ npm start
-```
-
-## Screenshots
-
-### Login screen
-
-![Login screen](https://cloud.githubusercontent.com/assets/306521/20032026/e2241716-a381-11e6-8ec2-4e0263308762.png)
-
-### Index page after login
-
-![Index page](https://cloud.githubusercontent.com/assets/306521/20032034/e401f10c-a381-11e6-86bb-5325671d32bf.png)
-
-### Devices page
-
-![Devices module](https://cloud.githubusercontent.com/assets/306521/20032035/e5e7ec60-a381-11e6-9481-e1db97126797.png)
-
-## Directory structure
-```txt
-+---build
-+---client
-|   +---app
-|   |   +---core
-|   |   +---modules
-|   |       +---demo
-|   |       +---devices
-|   |       +---home
-|   |       +---posts
-|   |       +---session
-|   |                   
-|   +---frontend
-|   +---images
-|   +---scss
-|                   
-+---data
-+---logs
-+---server
-|   |   bundle.js
-|   |   dev.js
-|   |   index.js
-|   +---applogic
-|   |   +---libs
-|   |   +---modules
-|   |       +---counter
-|   |       +---devices
-|   |       +---posts
-|   |       +---session
-|   +---config
-|   |       default.js
-|   |       index.js
-|   |       prod.js
-|   |       test.js
-|   |       
-|   +---core
-|   +---libs
-|   +---locales
-|   |   +---en
-|   |   +---hu
-|   +---models
-|   |       user.js
-|   +---public
-|   +---routes
-|   +---schema
-|   +---services
-|   +---views
-+---tests
-|
-|   package.json
-|   secrets.json
-
 ```
 
 ## Bundled server-side
@@ -249,9 +162,3 @@ These are the instructions for Twitter:
 ## License
 
 vue-express-mongo-boilerplate is available under the [MIT license](https://tldrlegal.com/license/mit-license).
-
-## Contact
-
-Copyright (C) 2016 Icebob
-
-[![@icebob](https://img.shields.io/badge/github-icebob-green.svg)](https://github.com/icebob) [![@icebob](https://img.shields.io/badge/twitter-Icebobcsi-blue.svg)](https://twitter.com/Icebobcsi)
